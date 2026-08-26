@@ -14,11 +14,11 @@ set -euo pipefail
 # -------------------- 路径配置（沿用 combaine.sh）--------------------
 workdir=
 ref=
-args_file=${workdir}/00_list/gvcf_args.txt
-TMP=${workdir}/03_work/tmp
+args_file=${workdir}/gvcf_args.txt
+TMP=${workdir}/01_work/tmp
 GATK=
 
-outdir=${workdir}/03_work
+outdir=${workdir}/01_work
 per_chr_dir=${outdir}/per_chr
 scriptdir=${outdir}/scripts
 logdir=${outdir}/logs
