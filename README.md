@@ -86,13 +86,13 @@ Splits the GATK joint genotyping workflow by chromosome. It reads chromosome nam
 - `prefix` – output prefix / 输出文件前缀
 
 **Outputs / 输出**
-- Per‑chromosome interval files in `${workdir}/03_work/intervals/`  
+- Per‑chromosome interval files in `${workdir}/01_work/intervals/`  
   各染色体区间文件
-- Per‑chromosome job scripts in `${workdir}/03_work/scripts/combine_chr_*.sh`  
+- Per‑chromosome job scripts in `${workdir}/01_work/scripts/combine_chr_*.sh`  
   各染色体任务脚本
-- Merge script `${workdir}/03_work/scripts/merge_chr.sh`  
+- Merge script `${workdir}/01_work/scripts/merge_chr.sh`  
   合并脚本
-- Submission script `${workdir}/03_work/scripts/submit_all.sh`  
+- Submission script `${workdir}/01_work/scripts/submit_all.sh`  
   一键提交脚本
 
 ---
