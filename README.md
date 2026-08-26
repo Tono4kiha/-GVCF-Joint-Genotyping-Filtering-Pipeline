@@ -132,7 +132,8 @@ Reads `snp_QC_metrics.txt` and produces a 2×3 density plot of the six QC metric
 
 **Usage / 用法**
 
-    Rscript 03_plot_QC_metrics.R [input_file] [output_png]
+   cd `OUTDIR` #02的输出目录
+   Rscript 03_plot_QC_metrics.R [input_file] [output_png]
 
 Defaults: `input_file = snp_QC_metrics.txt`, `output_png = QC_distributions.png`
 
